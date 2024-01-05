@@ -1,0 +1,46 @@
+/* COMMON SHARED STYLES */
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* NAV BAR STYLES */
+nav {
+  display: flex;
+  /* vertically same height e ana */
+  align-items: center;
+  /* button ar name er majhe space diye duita dui side e pathano */
+  justify-content: space-between;
+}
+
+.title-portfolio {
+  color: var(--Dark-01, #181818);
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.text-primary {
+  color: #fd6e0a;
+}
+
+nav > ul {
+  display: flex;
+  /* vertical align */
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px
+}
