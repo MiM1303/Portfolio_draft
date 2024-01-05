@@ -94,6 +94,12 @@ nav li {
 
 
 /* MAIN SECTION STYLES */
+main{
+    /* original */
+    /* max-width: 1140px; */
+    max-width: 1220px;
+    margin: 0 auto;
+}
 
 /* ABOUT SECTION STYLES */
 .about{
@@ -115,4 +121,29 @@ nav li {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+    /* extra modification */
+    padding: 0px 5px;
+}
+
+.info-title{
+    color:#757575;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.info-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
 }
