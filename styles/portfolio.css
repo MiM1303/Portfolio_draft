@@ -101,6 +101,10 @@ main{
     margin: 0 auto;
 }
 
+main section{
+    margin-top: 130px;
+}
+
 /* ABOUT SECTION STYLES */
 .about{
     padding: 130px;
@@ -148,6 +152,41 @@ main{
     margin-top: 5px;
 }
 
+/* WHAT I DO SECTION STYLES */
+
 #what-i-do-description{
     padding: 30px 150px;
 }
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    /* bhul boshoto ki jani banaisilam bhallagsilo */
+    /* padding: 30px;
+    gap: 24px;
+    box-shadow: 0px 6px 50px 0px;
+    border-radius: 5px;
+    background: #FFF; 
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);*/
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    /* extra modification */
+    max-width: 267;
+}
+
+.skill-description{
+    color: #757575;
+}
+
+/* RESUME SECTION STYLES */
+
+.resume-column-title{
+        color:#474747;
+        font-size: 30px;
+        font-weight: 700;
+    }
